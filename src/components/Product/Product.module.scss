@@ -1,0 +1,45 @@
+.productContainer {
+  display: flex;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.2s ease-in-out;
+  // max-width: 300px; // Set a maximum width to control the size
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  .image {
+    text-align: center;
+  }
+
+  .info {
+    margin-left: 30px;
+    .productName {
+      color: darkblue;
+      font-size: 18px;
+    }
+    .price {
+      font-size: 1.2rem; // Reduce font size
+      color: #e44d26;
+      margin: 5px 0; // Reduce margin
+    }
+
+    p {
+      color: #555;
+      margin: 5px 0;
+    }
+
+    .addToCart {
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      color: white;
+      font-weight: bold;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+  }
+}

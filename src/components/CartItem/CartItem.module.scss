@@ -1,0 +1,46 @@
+.itemContainer {
+  border-right: 2px  rgb(29, 27, 27);
+  border-bottom: 2px  rgb(31, 27, 27);
+  background-color: rgb(232, 232, 232);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px 20px;
+  border-radius: 20px;
+  margin-bottom: 5px;
+
+  .name {
+    color: darkblue;
+    font-size: 20px;
+  }
+
+  .actionsContainer {
+    display: flex;
+    align-items: center;
+
+    .actions {
+      margin-left: 20px;
+      button {
+        margin-right: 10px;
+        border: 0;
+        border-radius: 5px;
+        color: white;
+        cursor: pointer;
+      }
+      .increase {
+        padding: 5px 10px;
+        background-color: green;
+      }
+      .decrease {
+        padding: 5px 10px;
+        background-color: red;
+      }
+    }
+  }
+  .price {
+    color: rgrgb(143, 102, 0);
+  }
+
+  .seller {
+    font-size: 18px;
+    color: darkslateblue;
+  }
+}

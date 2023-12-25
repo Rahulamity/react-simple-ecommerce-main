@@ -1,0 +1,34 @@
+.header {
+  text-align: center;
+  img {
+    height: 115px;
+  }
+
+  .nav {
+    text-align: left;
+
+    .links {
+      list-style-type: none;
+      display: flex;
+      background-color: black;
+      line-height: 40px;
+      font-size: 20px;
+
+      .link {
+        a {
+          text-decoration: none;
+          color: white;
+          padding: 8px 5px;
+
+          &:hover {
+            background-color: rgb(74, 88, 74);
+          }
+        }
+      }
+    }
+
+    .links .link:not(:first-child) {
+      margin-left: 30px;
+    }
+  }
+}

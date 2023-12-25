@@ -1,0 +1,26 @@
+.cartContainer {
+  margin: 40px;
+
+  .title {
+    font-size: 22px;
+    color: goldenrod;
+    border-bottom: 2px dashed lightgray;
+    padding: 5px 0;
+  }
+
+  .checkout {
+    padding: 10px 35px;
+    background-color: rgb(64, 157, 86);
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+
+    &:hover {
+      background-color: transparent;
+      color: rgb(31, 24, 24);
+      border: 2px solid gold;
+    }
+  }
+}

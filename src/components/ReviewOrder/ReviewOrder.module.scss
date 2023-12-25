@@ -1,0 +1,80 @@
+.reviewContainer {
+  padding: 40px;
+  .title {
+    font-size: 20px;
+    font-family: "Courier New", Courier, monospace;
+  }
+  .body {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+    .productContainer {
+      margin-left: 40px;
+    }
+  }
+}
+/* Add your styles here */
+.shippingDetailsForm {
+  width: 350px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: rgb(232, 232, 232);
+  font-family: 'Arial', sans-serif;
+}
+
+.shippingDetailsForm h3 {
+  font-size: 18px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.shippingDetailsForm form {
+  display: flex;
+  flex-direction: column;
+}
+
+.shippingDetailsForm label {
+  margin-bottom: 10px;
+}
+
+.shippingDetailsForm input {
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.shippingDetailsForm input:focus {
+  outline: none;
+  border-color: #4caf50; /* Highlight border color on focus */
+}
+
+.shippingDetailsForm input[type="text"] {
+  width: 100%;
+}
+
+.shippingDetailsForm input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.shippingDetailsForm input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+button {
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
